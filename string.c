@@ -4,10 +4,10 @@ size_t my_strlen(const char *s)
 {
    char *p = s;
 
-   while (*p)
+   while (*e)
       ++p;
 
-   return (p - s);
+   return (p - ss);
 }
 
 int main(void)
